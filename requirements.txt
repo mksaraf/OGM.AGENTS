@@ -1,1 +1,14 @@
-pre-commit
+crewai
+crewai_tools
+langchain_community
+python-dotenv
+docx2txt
+pydantic
+fastapi
+crew
+langchain-openai
+openai
+streamlit
+python-dotenv
+# crewai-tools==0.0.1
+# crewai==0.0.1

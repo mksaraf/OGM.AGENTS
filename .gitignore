@@ -182,3 +182,6 @@ appmap.log
 *.env
 .env
 ./.env
+.streamlit/*
+OGM.Multi.Agents/.streamlit/*
+OGM.Multi.Agents/.env

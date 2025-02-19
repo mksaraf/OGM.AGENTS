@@ -1,14 +1,14 @@
-crewai==0.28.8
-crewai_tools==0.1.6
-langchain_community==0.0.29
+crewai
+crewai_tools
+langchain_community
 python-dotenv
 docx2txt
-pydantic==2.10.6
-fastapi==0.115.8
-crew==0.9.2
-langchain-openai==0.3.6
-openai==1.63.0
-streamlit==1.42.0
-python-dotenv==1.0.1
+pydantic
+fastapi
+crew
+langchain-openai
+openai
+streamlit
+python-dotenv
 # crewai-tools==0.0.1
 # crewai==0.0.1

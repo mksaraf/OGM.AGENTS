@@ -1,6 +1,6 @@
 #### Import ####
 import sys
-module_path = '/Users/manishkumarsaraf/Library/Mobile Documents/com~apple~CloudDocs/OGM/OGM.Bots/OGM.Agents/OGM.Multi.Agents/'
+module_path = '/Users/manishkumarsaraf/Library/Mobile Documents/com~apple~CloudDocs/OGM/OGM.AGENTS/OGM.Multi.Agents/'
 # Add the module directory to sys.path
 sys.path.append(module_path)
 # Print sys.path to verify
