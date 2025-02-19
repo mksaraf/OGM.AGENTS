@@ -177,3 +177,8 @@ cython_debug/
 # Files
 .pre-commit-config.yaml
 appmap.log
+
+# Keys
+*.env
+.env
+./.env
