@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Environments
+.venv-ma
+.venv-ma/*
+
+# Files
+.pre-commit-config.yaml
+appmap.log
