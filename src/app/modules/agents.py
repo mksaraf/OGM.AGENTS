@@ -3,8 +3,8 @@ from crewai_tools import ScrapeWebsiteTool, SerperDevTool, FileReadTool, DOCXSea
 
 search_tool = SerperDevTool()
 scrape_tool = ScrapeWebsiteTool()
-read_resume = FileReadTool(file_path='OGM.Multi.Agents/OGM.MultiAgent.tailoredResume/Geetika_Saraf_Resume_Jan242025.docx')
-semantic_search_resume = DOCXSearchTool(docx='/Users/manishkumarsaraf/Library/Mobile Documents/com~apple~CloudDocs/OGM/OGM.Bots/OGM.Agents/OGM.Multi.Agents/OGM.MultiAgent.tailoredResume/Geetika_Saraf_Resume_Jan242025.docx')
+read_resume = FileReadTool(file_path='src/app/OGM.MultiAgent.tailoredResume/Geetika_Saraf_Resume_Jan242025.docx')
+semantic_search_resume = DOCXSearchTool(docx='src/app/OGM.MultiAgent.tailoredResume/Geetika_Saraf_Resume_Jan242025.docx')
 
 class Planner(Agent):
     def __init__(self):

@@ -1,6 +1,6 @@
 #### Import ####
 import sys
-module_path = '/Users/manishkumarsaraf/Library/Mobile Documents/com~apple~CloudDocs/OGM/OGM.Bots/OGM.Agents/OGM.Multi.Agents/'
+module_path = 'src/app/'
 # Add the module directory to sys.path
 sys.path.append(module_path)
 # Print sys.path to verify
@@ -25,13 +25,9 @@ from modules.crew import \
 # openai_api_key = os.environ.get("OPENAI_API_KEY")
 openai_api_key = get_openai_key_st()
 #print(f"OpenAI API Key: {openai_api_key}")
-os.environ["OPENAI_MODEL_NAME"] = 'gpt-4-turbo'
-#serper_api_key=os.environ["SERPER_API_KEY"] 
+os.environ["OPENAI_MODEL_NAME"] = 'gpt-4-turbo' 
 serper_api_key = get_serper_api_key_st()
 
-
-# #### FastAPI ####
-# client = TestClient(fast_app)
 
 #### Streamlit App ####
 # Create tabs
