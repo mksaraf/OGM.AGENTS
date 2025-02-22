@@ -185,3 +185,5 @@ appmap.log
 .streamlit/*
 OGM.Multi.Agents/.streamlit/*
 OGM.Multi.Agents/.env
+.venv-stage/*
+.venv-stage
