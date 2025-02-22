@@ -11,4 +11,4 @@ pydantic_core
 pydantic-settings
 fastapi
 streamlit
-
+pysqlite3-binary
