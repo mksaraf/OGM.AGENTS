@@ -85,7 +85,7 @@ class CustomerSupportCrew(Crew):
         super().__init__(
             agents=[support_agent, support_quality_assurance_agent],
             tasks=[inquiry_resolution_task, quality_assurance_review_task],
-            verbose=2,
+            verbose=True,
             memory=True
         )
 
