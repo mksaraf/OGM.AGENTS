@@ -9,7 +9,7 @@ source .venv-stage/bin/activate
 # Install python libraries
 <!-- pip3 install pydantic fastapi crew langchain-openai openai streamlit python-dotenv crewai-tools crewai -->
 pip3 install -r ./OGM.Multi.Agents/requirements.txt -v > install_log.txt 2>&1
-
+pip cache purge   
 # Requirements Check
 python3 OGM.Multi.Agents/modules/check_requirements.py ./OGM.Multi.Agents/requirements.txt
 
