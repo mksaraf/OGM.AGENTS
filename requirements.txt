@@ -1,6 +1,6 @@
-crew==0.9.2
-crewai==0.5.0
-crewai-tools==0.36.0
+crew
+crewai
+crewai-tools
 langchain-community==0.0.20
 langchain-openai==0.0.2.post1
 langchain_openai==0.0.2.post1
