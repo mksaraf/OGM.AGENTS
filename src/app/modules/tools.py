@@ -10,7 +10,7 @@ class SentimentAnalysisTool(BaseTool):
         # Your custom code tool goes here
         return "positive"
 
-directory_read_tool = DirectoryReadTool(directory='OGM.Multi.Agents/OGM.MultiAgent.CustomeOurReach/instructionsforOutReach')
+directory_read_tool = DirectoryReadTool(directory='src/app/OGM.MultiAgent.CustomeOurReach/instructionsforOutReach')
 file_read_tool = FileReadTool()
 search_tool = SerperDevTool()
 sentiment_analysis_tool = SentimentAnalysisTool()
