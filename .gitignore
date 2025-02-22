@@ -183,9 +183,11 @@ appmap.log
 .env
 ./.env
 .streamlit/*
-OGM.Multi.Agents/.streamlit/*
-OGM.Multi.Agents/.streamlit/
-OGM.Multi.Agents/.env
-OGM.Multi.Agents/.env/*
+./src/app/.streamlit/*
+./src/app/.streamlit/
+src/app/.env
+src/app/.env/*
 .venv-stage/*
 .venv-stage
+src/app/.streamlit/*
+src/app/.streamlit/
