@@ -1,0 +1,12 @@
+crewai
+crewai_tools
+langchain_community
+python-dotenv
+docx2txt
+pydantic
+fastapi
+crew
+langchain-openai
+openai
+streamlit
+python-dotenv
